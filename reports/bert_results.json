@@ -1,0 +1,78 @@
+{
+  "model": "bert-base-uncased (fine-tuned)",
+  "device": "mps",
+  "train_time_sec": 19239.419439077377,
+  "accuracy": 0.9472368421052632,
+  "macro_f1": 0.9472961308223876,
+  "per_class_report": {
+    "World": {
+      "precision": 0.9674145299145299,
+      "recall": 0.9531578947368421,
+      "f1-score": 0.9602332979851538,
+      "support": 1900.0
+    },
+    "Sports": {
+      "precision": 0.9878947368421053,
+      "recall": 0.9878947368421053,
+      "f1-score": 0.9878947368421053,
+      "support": 1900.0
+    },
+    "Business": {
+      "precision": 0.9209129511677282,
+      "recall": 0.9131578947368421,
+      "f1-score": 0.9170190274841438,
+      "support": 1900.0
+    },
+    "Sci/Tech": {
+      "precision": 0.9135802469135802,
+      "recall": 0.9347368421052632,
+      "f1-score": 0.9240374609781478,
+      "support": 1900.0
+    },
+    "accuracy": 0.9472368421052632,
+    "macro avg": {
+      "precision": 0.9474506162094859,
+      "recall": 0.9472368421052632,
+      "f1-score": 0.9472961308223876,
+      "support": 7600.0
+    },
+    "weighted avg": {
+      "precision": 0.9474506162094859,
+      "recall": 0.9472368421052632,
+      "f1-score": 0.9472961308223876,
+      "support": 7600.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      1811,
+      10,
+      45,
+      34
+    ],
+    [
+      6,
+      1877,
+      9,
+      8
+    ],
+    [
+      34,
+      5,
+      1735,
+      126
+    ],
+    [
+      21,
+      8,
+      95,
+      1776
+    ]
+  ],
+  "label_names": [
+    "World",
+    "Sports",
+    "Business",
+    "Sci/Tech"
+  ]
+}

@@ -1,0 +1,19 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Model weights & training artifacts (too large for git; see README for how to regenerate)
+models/bert-ag-news/
+models/checkpoints/
+models/logs/
+models/train_log.txt
+
+# Data cache
+data/
+
+# OS
+.DS_Store
+.vscode/
+.idea/
